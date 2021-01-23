@@ -1,0 +1,39 @@
+https://rudo.studio
+https://www.red-website-design.co.uk
+https://www.smarterwebcompany.co.uk/
+..................................
+Concept:
+
+* Colour :
+-	Colour scheme :
+https://colorsinspo.com
+
+background : linear-gradient(to right, rgb(195, 20, 50), rgb(36, 11, 54))
+Text color : #f9f9f9
+slides : #49beb7
+.........
+Background : Black
+Thick:  Ink Blue
+Text: Gold
+...................................
+* Shape :
+
+Sphere animation # code source :
+https://codepen.io/juliangarnier/pen/LMrRNW?editors=0010
+..................................
+
+Animated background:
+https://www.vantajs.com/?effect=net
+
+....................................
+Landing page .
+1- Logo : YES
+2- Navigtion Bar:YES
+3-Our Process button: YES
+3- pagw content:YES
+4-Add WhatsUp Chat button:YES
+https://blog.toky.co/add-a-whatsapp-click-to-chat-button-to-your-website/
+................................
+Page 2: Services 
+1-select the background Pic: 
+2-

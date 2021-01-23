@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sargon Website Development</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <!-- AnimeJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<!--JQueryAhmed-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+
+    <!--whatsupJquery-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Floating WhatsApp css-->
+    <link
+      rel="stylesheet"
+      href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css"
+    />
+    <!--Floating WhatsApp javascript-->
+    <script
+      type="text/javascript"
+      src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="loading-screen"></div>
+
+      <div class="loader">
+        <div class="ringOne ring">
+          <img src="ring.png" alt="" />
+        </div>
+        <div class="ringTwo ring">
+          <img src="ring.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="logo"><ion-icon name="git-compare"></ion-icon>Sargon</div>
+
+    <!--Nav bar-->
+
+    <div id="sidebar">
+      <div class="toggle-btn" onclick="toggleSidebar(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="list">
+        <div class="item">Services</div>
+        <div class="item">Process</div>
+        <div class="item">About us</div>
+        <div class="item">Contact us</div>
+      </div>
+    </div>
+
+    <!--end nav bar-->
+
+    <div class="header">
+      <h1 class="ml7" id="title">
+        <span class="text-wrapper">
+          <span class="letters">Sargon is a website desgn studio</span>
+        </span>
+      </h1>
+
+      <p id="tagline" class="p1">
+        We’re a Sargon based website design Studio who focus on delivering
+        results. By taking the time to truly understand your business, design
+        the perfect conversion-focused website, and then implement creative,
+        results-driven digital marketing strategies, we are able to help you
+        attract new customers and, ultimately, increase profits.
+      </p>
+
+      <br /><br />
+
+      <p id="tagline" class="p2">
+        DISCOVER HOW WE CAN HELP YOU DO BETTER ONLINE. TALK TO US TODAY.
+      </p>
+
+      <div class="buttons">
+        <button id="one">Book a free consultation</button>
+        <button id="two">GET A QUOTE</button>
+      </div>
+    </div>
+
+
+    <div class="media">
+      <ul>
+        <li><ion-icon name="logo-facebook"></ion-icon></li>
+        <li><ion-icon name="logo-instagram"></ion-icon></li>
+        <li><ion-icon name="logo-twitter"></ion-icon></li>
+        <li><ion-icon name="logo-youtube"></ion-icon></li>
+      </ul>
+    </div>
+
+
+    <!--Div where the WhatsApp will be rendered-->
+  <div id="WAButton"></div>
+</body>
+    <!--OurProcess-->
+    <div class="ourProcess">
+      <span1>Our Process</span1>
+    </div>
+
+    <div class="arrow">&#8595;</div>
+
+   
+  
+ 
+    <div ID="process" class="process">
+      <h1> Our Process</h1>
+      <p ID="ourProcess2">Every project is unique but we have established a framework on how we approach things to maximise the success rate. Our Design & Development process has been tested on multiple projects. It is Agile, End User-Focused and transparent for our Clients.</p>
+      
+      <div class="processItems">
+        <p1 class="Discovery">Discovery</p1>
+        <p2 class="Prototypes">Prototypes</p2>
+        <p3 class="design">Design</p3>
+        <p4 class="Development">Development</p4>
+        <p5 class="maintenance">Maintenance</p5>
+      </div>
+      
+  
+     
+      
+      <div class="circleProcess">
+       
+        <span ID="cricle1" class="dot"data-description="Work starts before the work starts. Market research and analysis, competitor research, design and branding preferences. We don't begin any design work until there is a clear understanding of the Business Case and User Personas."></span>
+        <span ID="cricle2"class="dot" data-description="We start with a user flow map to gain a bird's eye view of the entire project. This is followed by Wireframes and clickable Prototypes which establish the overall structure, content and functionality of the project."></span>
+        <span ID="cricle3"class="dot" data-description="User Interface design is the stage when the overall look &amp; feel of the project is established. We work with colors, typography, visual effects and animations. This is what the end users will see when they interact with your product/website."></span>
+        <span ID="cricle4"class="dot" data-description="This is when it all comes to life in terms of functionality. Producing an efficient clean code structure is our goal at this stage. We usually work with popular platforms such as WordPress or HubSpot to make it easy for our clients to manage and edit the website in the future."></span>
+        <span ID="cricle5"class="dot" data-description="We make sure that everything runs, every day, exactly as it should. Our maintenance packages include regular security audits, weekly code back-ups, and server load monitoring. We are flexible and can tailor our support services based on the specific needs our clients have."></span>
+      </div>
+
+   
+    </div>
+   
+    <div ID="startConversation" class="startConversation"> 
+      <h1>Listen. Understand. Design.</h1>
+      <p>It all starts with a conversation. We listen carefully to what each client has in mind. Their ideas, their vision, their goals. Our design process transforms these ideas into powerful identities, seamless interactions, and memorable experiences that connect people, products and organisations.</p>
+   <button ID="btnStartConversation" class="btnStartConversation" type="text" >Start Conversation</button>
+   
+
+    </div>
+
+    <div ID="footer" class="footer">
+
+      <ul>
+        <li>Rudo Studio</li>
+        <li>30 Stamford Street</li>
+        <li>London, SE1 9LQ</li>
+        <li>United Kingdom</li>
+      </ul>
+
+      <ul> Contact Us
+<li>hello@rudo.studio</li>
+<li>+966 500736313</li>
+      </ul>
+    </div>
+
+    <div class="copyright">© 2020 by Sargon. All rights reserved.</div>
+    <!-- js -->
+    <script src="script.js"></script>
+
+  </body>
+</html>
